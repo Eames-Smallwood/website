@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="order">
+        <h2>Order Your Cheeseburger</h2>
+        <form id="orderForm">
+            <label for="cheeseburger">Select Cheeseburger Type:</label>
+            <select id="cheeseburger" name="cheeseburger">
+                <option value="single">Single Cheeseburger</option>
+                <option value="double">Double Cheeseburger</option>
+                <option value="triple">Triple Cheeseburger</option>
+            </select>
+            <br>
+            <label for="jalapenos">Add Jalapenos:</label>
+            <input type="checkbox" id="jalapenos" name="jalapenos">
+            <br>
+            <button type="button" onclick="placeOrder()">Place Order</button>
+        </form>
+        <div id="orderConfirmation"></div>
+        <br>
+        <a href="billing.html" class="cta-button">Proceed to Billing</a>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>

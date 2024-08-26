@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #ffffff00;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+}
+
+form {
+    margin: 1rem 0;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+form input, form select {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+#orderConfirmation, #cateringConfirmation {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Landing Page Styles */
+#landing {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 5rem 1rem;
+    min-height: 100vh;
+}
+
+.hero {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0.5rem;
+    border-radius: 8px;
+}
+
+.buttons {
+    margin-top: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #f8c146;
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    margin: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #f4b831;
+}
